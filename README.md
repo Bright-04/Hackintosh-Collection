@@ -10,13 +10,18 @@ This repository contains tested and working EFI configurations for different har
 
 | Machine | Model | Status | macOS Version | OpenCore Version |
 |---------|-------|--------|---------------|------------------|
-| HP All-in-One | 22-2027d | ✅ Working | TBD | TBD |
+| HP All-in-One | 22-2027d | ✅ Working | Monterey 12.x | 1.0.1 |
+| Dell Laptop | Latitude E5440 | 🔧 In Progress | TBD | TBD |
 
 ## 📁 Repository Structure
 
 ```
 Hackintosh-Collection/
 ├── HP-22-2027d-AIO/          # HP 22-2027d All-in-One Desktop
+│   ├── EFI/                  # OpenCore EFI folder
+│   ├── README.md             # Machine-specific documentation
+│   └── ...
+├── Dell-Latitude-E5440/      # Dell Latitude E5440 Laptop
 │   ├── EFI/                  # OpenCore EFI folder
 │   ├── README.md             # Machine-specific documentation
 │   └── ...
